@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{945FEB6F-5C3B-43EB-885C-34CE974F6E5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{B2AE33D7-330C-47D4-BC6D-955413F79EC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPBroadcast.ClientConsole", "src\client\UDPBroadcast.ClientConsole\UDPBroadcast.ClientConsole.csproj", "{46DB1E21-281F-4D94-9E29-0759ACF21668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPBroadcast.Server.Console", "src\server\UDPBroadcast.Server.Console\UDPBroadcast.Server.Console.csproj", "{1595347B-E16C-4FF6-8864-F642C9FB99DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46DB1E21-281F-4D94-9E29-0759ACF21668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46DB1E21-281F-4D94-9E29-0759ACF21668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46DB1E21-281F-4D94-9E29-0759ACF21668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46DB1E21-281F-4D94-9E29-0759ACF21668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1595347B-E16C-4FF6-8864-F642C9FB99DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1595347B-E16C-4FF6-8864-F642C9FB99DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1595347B-E16C-4FF6-8864-F642C9FB99DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1595347B-E16C-4FF6-8864-F642C9FB99DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{945FEB6F-5C3B-43EB-885C-34CE974F6E5D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B2AE33D7-330C-47D4-BC6D-955413F79EC5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{46DB1E21-281F-4D94-9E29-0759ACF21668} = {945FEB6F-5C3B-43EB-885C-34CE974F6E5D}
+		{1595347B-E16C-4FF6-8864-F642C9FB99DF} = {B2AE33D7-330C-47D4-BC6D-955413F79EC5}
+	EndGlobalSection
+EndGlobal
