@@ -1,0 +1,6 @@
+@Registry.Hub.WebApi_HostAddress = http://localhost:5008
+
+GET {{Registry.Hub.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
